@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.result-screen {
+    display: flex;
+    /* flex: 1; */
+    justify-content: end;
+    padding-top: 16px;
+    background-color: #858694;
+    font-size: 50px;
+    padding-right: 35px;
+    font-family: math;
+    color: white;
+
+
+
+}
+
+.screen {
+    height: 115px;
+    font-size: 90px;
+
+
+}
+
+.columns-div {
+    background-color: gray;
+
+}
+
+.first-row {
+    display: flex;
+    text-align: center;
+    height: 125px
+}
+
+.clear-btn {
+    background-color: #D3D3D3;
+    flex: 1;
+    margin-right: 1px;
+    padding-top: 35px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.plusminus-btn {
+    background-color: #D3D3D3;
+    flex: 1;
+    margin-right: 1px;
+    font-size: 23px;
+    padding-top: 39px;
+    cursor: pointer;
+}
+
+.precentage-btn {
+    background-color: #D3D3D3;
+    flex: 1;
+    margin-right: 1px;
+    font-size: 23px;
+    padding-top: 39px;
+    cursor: pointer;
+}
+
+.divid-btn {
+    background-color: #F08000;
+    flex: 1;
+    margin-right: 1px;
+    color: white;
+    padding-top: 39px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.second-row {
+    display: flex;
+    height: 125px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.numbers-btn {
+    background-color: #D3D3D3;
+    flex: 1;
+    margin-right: 1px;
+    font-size: 26px;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+.cross-btn {
+    background-color: #F08000;
+    flex: 1;
+    color: white;
+    padding-top: 45px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.third-row {
+    display: flex;
+    font-size: 20px;
+    height: 125px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.minus-btn {
+    background-color: #F08000;
+    flex: 1;
+    color: white;
+    font-size: 26px;
+    margin-right: 1px;
+    padding-top: 41px;
+    cursor: pointer;
+}
+
+.fourth-row {
+    display: flex;
+    font-size: 20px;
+    height: 125px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.plus-btn {
+    background-color: #F08000;
+    flex: 1;
+    margin-right: 1px;
+    color: white;
+    padding-top: 45px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.last-row {
+    display: flex;
+    font-size: 20px;
+    height: 125px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.zero-btn {
+    background-color: #D3D3D3;
+    flex: 2;
+    margin-right: 1px;
+    padding-top: 35px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.equals-btn {
+    background-color: #F08000;
+    flex: 1;
+    padding-top: 47px;
+    color: white;
+    font-size: 26px;
+    margin-right: 1px;
+    cursor: pointer;
+}
